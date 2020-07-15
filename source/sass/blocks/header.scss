@@ -1,23 +1,26 @@
-.header {
-  border-bottom: 1px solid $border-color;
+.head {
+  padding: 10px 0 0 0;
+  margin-bottom: 20px;
+  background-color: $background-color;
 }
 
-.head-wrapper {
+.head__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
-@media (min-width: $tablet-width) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    border-bottom: none;
-  }
+// @media (min-width: $tablet-width) {
+//   .header {
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 0 20px;
+//     border-bottom: none;
+//   }
 
-  .head-wrapper {
-    padding: 0;
-    margin: 0;
-  }
-}
+//   .head-wrapper {
+//     padding: 0;
+//     margin: 0;
+//   }
+// }

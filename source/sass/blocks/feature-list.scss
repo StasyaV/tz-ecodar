@@ -1,0 +1,58 @@
+.features__list {
+  @include list-reset();
+  @include font-reg();
+  font-size: 14px;
+  color: $base-font-color;
+
+  padding: 0 20px;
+}
+
+.list__item-title {
+  @include font-bold();
+  color: $base-title-color;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    width: fit-content;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 60px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--easy::before {
+    background-image: url("/img/icon-1.png");
+  }
+
+  &--responsive::before {
+    background-image: url("/img/icon-2.png");
+  }
+
+  &--modern::before {
+    background-image: url("/img/icon-3.png");
+  }
+
+  &--clean::before {
+    background-image: url("/img/icon-4.png");
+  }
+
+  &--ready::before {
+    background-image: url("/img/icon-5.png");
+  }
+
+  &--download::before {
+    background-image: url("/img/icon-6.png");
+  }
+}

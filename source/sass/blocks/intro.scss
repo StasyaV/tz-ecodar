@@ -1,0 +1,19 @@
+.intro {
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: $base-title-color;
+}
+
+.intro__title {
+  @include font-bold();
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.intro__description {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 30px;
+}
