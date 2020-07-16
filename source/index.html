@@ -9,26 +9,207 @@
 </head>
 
 <body>
-  <header>
-    <div class="head-wrapper container">
-      <div class="header__logo logo">
-        <img src="img/activebox_logo.png" class="logo__image" width="189" height="24" alt="Логотип компании">
+  <header class="header">
+    <div class="header__block container">
+      <div class="header__wrapper">
+        <div class="header__logo logo">
+          <img src="img/activebox_logo.png" class="logo__image" width="189" height="24" alt="Логотип компании">
+        </div>
+        <button type="button" class="menu-button menu-button--closed"></button>
       </div>
-      <button type="button" class="menu-button menu-button--closed menu-button--none"></button>
+      <nav class="main-nav main-nav--no-js main-nav--closed">
+        <ul class="main-nav__menu menu">
+          <li class="menu__item"><a href="#" class="menu__item-link">Features</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link">Works</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link">Our team</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link">Testimonails</a></li>
+          <li class="menu__item"><a href="#" class="menu__item-link">Download</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="main-nav container main-nav--no-js main-nav--closed">
-      <ul class="main-nav__menu menu">
-        <li class="menu__item"><a href="#" class="menu__item-link">Features</a></li>
-        <li class="menu__item"><a href="#" class="menu__item-link">Works</a></li>
-        <li class="menu__item"><a href="#" class="menu__item-link">Our team</a></li>
-        <li class="menu__item"><a href="#" class="menu__item-link">Testimonails</a></li>
-        <li class="menu__item"><a href="#" class="menu__item-link">Download</a></li>
-      </ul>
-    </nav>
   </header>
   <main>
-
+    <section class="intro container">
+      <h1 class="intro__title">Your Favorite One Page Multi Purpose Template</h1>
+      <p class="intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
+      <a href="#" class="intro__button button">Find out more</a>
+    </section>
+    <section class="features container">
+      <h2 class="visually-hidden">Company features</h2>
+      <ul class="features__list list">
+        <li class="list__item list__item--easy">
+          <div>
+            <p class="list__item-title">Easily Customised</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+        <li class="list__item list__item--responsive">
+          <div>
+            <p class="list__item-title">Responsive Ready</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+        <li class="list__item list__item--modern">
+          <div>
+            <p class="list__item-title">Modern ready</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+        <li class="list__item list__item--clean">
+          <div>
+            <p class="list__item-title">Clean Code</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+        <li class="list__item list__item--ready">
+          <div>
+            <p class="list__item-title">Ready to ship</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+        <li class="list__item list__item--download">
+          <div>
+            <p class="list__item-title">Downoload for free</p>
+            <p class="list__item-description">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+              Donec ullamcorper nulla non metus auctor fringilla.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="projects-block">
+      <h2 class="visually-hidden">Project examples</h2>
+      <ul class="projects-block__list project">
+        <li class="project__item project__item--1">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-1_mobile.webp">
+              <source type="image/webp" srcset="img/pic-1_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-1.jpg">
+              <img src="img/pic-1_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--2">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-2_mobile.webp">
+              <source type="image/webp" srcset="img/pic-2_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-2.jpg">
+              <img src="img/pic-2_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--3">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-3_mobile.webp">
+              <source type="image/webp" srcset="img/pic-3_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-3.jpg">
+              <img src="img/pic-3_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--4">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-4_mobile.webp">
+              <source type="image/webp" srcset="img/pic-4_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-4.jpg">
+              <img src="img/pic-4_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--5">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-5_mobile.webp">
+              <source type="image/webp" srcset="img/pic-5_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-5.jpg">
+              <img src="img/pic-5_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--6">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-6_mobile.webp">
+              <source type="image/webp" srcset="img/pic-6_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-6.jpg">
+              <img src="img/pic-6_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--7">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-7_mobile.webp">
+              <source type="image/webp" srcset="img/pic-7_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-7.jpg">
+              <img src="img/pic-7_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="project__item project__item--8">
+          <a href="#" class="project__item-link">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/pic-8_mobile.webp">
+              <source type="image/webp" srcset="img/pic-8_mobile.webp">
+              <source media="(min-width: 1300px)" srcset="img/pic-8.jpg">
+              <img src="img/pic-8_mobile.jpg" alt="Пример работы">
+            </picture>
+            <div class="project__item-content">
+              <p class="project__item-title">Project name</p>
+              <p class="project__item-description">User Interface Design</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
   </main>
+  <footer class="footer">
+
+  </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

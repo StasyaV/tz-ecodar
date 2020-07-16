@@ -1,21 +1,22 @@
 .button {
+  @include font-medium();
   display: inline-block;
-  min-width: 280px;
-  height: 40px;
-  font-family: $font-oswald;
+  min-width: 200px;
+  height: 46px;
   font-size: 14px;
-  font-weight: normal;
-  line-height: 40px;
+  line-height: 46px;
   color: #ffffff;
   vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: $base-color;
   border: none;
   cursor: pointer;
 
-  &--show-more {
+  &:hover,
+  &:active {
+    border: 2px solid $main-font-color;
     background-color: $background-color;
-    color: $font-grey;
   }
 }

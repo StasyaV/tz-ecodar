@@ -1,6 +1,16 @@
+@mixin font-bold() {
+  font-family: $opensans;
+  font-weight: bold;
+}
+
 @mixin font-medium() {
-  font-family: $font-oswald;
+  font-family: $opensans;
   font-weight: 500;
+}
+
+@mixin font-reg() {
+  font-family: $opensans;
+  font-weight: normal;
 }
 
 @mixin title() {
