@@ -55,27 +55,27 @@
   }
 
   &--easy::before {
-    background-image: url("/img/icon-1.png");
+    background-image: url("../img/icon-1.png");
   }
 
   &--responsive::before {
-    background-image: url("/img/icon-2.png");
+    background-image: url("../img/icon-2.png");
   }
 
   &--modern::before {
-    background-image: url("/img/icon-3.png");
+    background-image: url("../img/icon-3.png");
   }
 
   &--clean::before {
-    background-image: url("/img/icon-4.png");
+    background-image: url("../img/icon-4.png");
   }
 
   &--ready::before {
-    background-image: url("/img/icon-5.png");
+    background-image: url("../img/icon-5.png");
   }
 
   &--download::before {
-    background-image: url("/img/icon-6.png");
+    background-image: url("../img/icon-6.png");
   }
 }
 
